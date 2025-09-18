@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Babish Girlish Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card" role="application" aria-label="Babish girlish calculator">
+    <div class="top">
+      <div class="logo">B♥G</div>
+      <div>
+        <div class="title">Babish Girlish Calculator</div>
+        <div class="subtitle">Cute, pastel & playful — do your math in style ✨</div>
+      </div>
+    </div>
+
+    <div class="display" id="display">
+      <div class="small" id="formula">&nbsp;</div>
+      <div class="big" id="result">0</div>
+    </div>
+
+    <div class="keys" role="grid" aria-label="calculator keypad">
+      <button class="key faded" data-action="clear">AC</button>
+      <button class="key faded" data-action="del">DEL</button>
+      <button class="key faded" data-action="percent">%</button>
+      <button class="key pink" data-action="op">÷</button>
+
+      <button class="key" data-num="7">7</button>
+      <button class="key" data-num="8">8</button>
+      <button class="key" data-num="9">9</button>
+      <button class="key pink" data-action="op">×</button>
+
+      <button class="key" data-num="4">4</button>
+      <button class="key" data-num="5">5</button>
+      <button class="key" data-num="6">6</button>
+      <button class="key pink" data-action="op">-</button>
+
+      <button class="key" data-num="1">1</button>
+      <button class="key" data-num="2">2</button>
+      <button class="key" data-num="3">3</button>
+      <button class="key pink" data-action="op">+</button>
+
+      <button class="key zero" data-num="0">0</button>
+      <button class="key" data-num=".">.</button>
+      <button class="key pink" data-action="equals">=</button>
+    </div>
+
+    <div class="footer">Tip: you can type using your keyboard — numbers, + - * / and Enter for =</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
